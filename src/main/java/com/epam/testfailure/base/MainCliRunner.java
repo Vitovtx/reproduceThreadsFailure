@@ -12,9 +12,6 @@ import cucumber.runtime.io.MultiLoader;
 import cucumber.runtime.io.ResourceLoader;
 import cucumber.runtime.io.ResourceLoaderClassFinder;
 
-/**
- * Created by Aliaksei_Shushkevich on 9/20/2017.
- */
 public class MainCliRunner
 {
 	public static void main(String[] args) throws IOException
