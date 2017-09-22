@@ -30,7 +30,7 @@ public class MainCliRunner
 		cucumberParams.add("--plugin");
 		cucumberParams.add("com.epam.reportportal.cucumber.ScenarioReporter");
 		cucumberParams.add("--glue");
-		cucumberParams.add("com.epam.testfailure.enterprise.cms.step.login");
+		cucumberParams.add("com.epam.testfailure");
 		cucumberParams.add("classpath:com/epam/testfailure/");
 		return cucumberParams;
 	}

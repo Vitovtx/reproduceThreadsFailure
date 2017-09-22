@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.epam.testfailure.base.annotation.QAComponent;
 
 
-@QAComponent("navigationEnterprise")
-public class NavigationEnterprise
+@QAComponent("navigation")
+public class Navigation
 {
 	@Autowired
 	protected BaseWebDriver driver;

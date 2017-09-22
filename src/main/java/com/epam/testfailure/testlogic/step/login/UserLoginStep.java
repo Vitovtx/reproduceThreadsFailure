@@ -1,8 +1,8 @@
-package com.epam.testfailure.enterprise.cms.step.login;
+package com.epam.testfailure.testlogic.step.login;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
-import com.epam.testfailure.enterprise.cms.page.login.LoginPage;
+import com.epam.testfailure.testlogic.page.login.BasePage;
 
 import cucumber.api.java.en.When;
 
@@ -10,12 +10,12 @@ import cucumber.api.java.en.When;
 public class UserLoginStep
 {
 	@Autowired
-	LoginPage loginPage;
+	BasePage basePage;
 
 	@When("^I open test page$")
 	public void loginDataTable()
 	{
-		loginPage.getNavigation().goHome();
+		basePage.getNavigation().goHome();
 	}
 
 }
